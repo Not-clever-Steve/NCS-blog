@@ -44,7 +44,7 @@ html {
   text-decoration: none;
   display: inline-block;
   padding: 10px 25px;
-  background: #409EFF;
+  background: #fff;
   color: #fff;
   border-radius: 30px;
   font-weight: 600;
@@ -54,7 +54,7 @@ html {
 }
 
 .bilibili a:hover {
-  background: #66b1ff;
+  background: #fff;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(64, 158, 255, 0.4);
 }
