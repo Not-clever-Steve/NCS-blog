@@ -40,6 +40,10 @@ html {
      margin:15px 0;
 }
 
+.bilibili {
+  text-align: center;
+}
+
 .bilibili a {
   text-decoration: none;
   display: inline-block;
@@ -57,6 +61,36 @@ html {
   background: #fff;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(64, 158, 255, 0.4);
+}
+
+.changelog {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.changelog a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, var(--color3), var(--color4));
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(9, 132, 227, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.changelog a:hover {
+  background: linear-gradient(135deg, var(--color4), var(--color3));
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(9, 132, 227, 0.4);
+}
+
+.changelog a:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(9, 132, 227, 0.3);
 }
 
 body {
